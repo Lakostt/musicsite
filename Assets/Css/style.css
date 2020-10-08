@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    
+
     font-size: 16px;
     line-height: 1.6;
     color: #616368;
@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     width: 100%;
     height: 100vh;
-    
+
     background: url("../Images/Intro.jpg") center
         no-repeat;
     -webkit-background-size: cover;
@@ -50,8 +50,8 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     widows: 60px;
     height: 3px;
-    margin: 20px auto 20px; 
-        
+    margin: 20px auto 20px;
+
     background-color: orange;
 }*/
 
@@ -59,12 +59,14 @@ h1, h2, h3, h4, h5, h6 {
 .intro__title:after {
     content: "";
     display: block;
-    height: 3px;
+    height: 5px;
     margin: 20px auto 20px;
-    background-size: 200% auto;
-    background: linear-gradient(to right, #ff5f6d 0%, #ffc371 100%);
-    box-shadow: 0 0 20px rgba(0,0,0,.1);
-    animation: gradient 0.5s ease infinite;
+
+    background: linear-gradient(-45deg, #ff5f6d, #ffc371);
+    background-size: 400% 400%;
+    animation: gradient 3s ease infinite;
+
+    border-radius: 7px;
 }
 
 @keyframes gradient {
@@ -98,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     padding-top: 15px;
     padding-top: 15px;
-    
+
     position: absolute;
     top: 0;
     left: 0;
@@ -130,10 +132,10 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: top;
     margin: 0 15px;
     /*position: relative;*/
-    
+
     color: black;
     text-decoration: none;
-    
+
     transition: color 0.5s linear;
 }
 
@@ -142,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 100%;
     height: 3px;
-    
+
     background: linear-gradient(to right, #ff5f6d 0%, #ffc371 100%);
     background-position: right 100px top 0;
     background-repeat: no-repeat;
@@ -153,8 +155,8 @@ h1, h2, h3, h4, h5, h6 {
     top: 100%;
     left: 0;
     z-index: 1;
-    
-    
+
+
 }
 
 .nav__link:hover {
@@ -182,15 +184,15 @@ h1, h2, h3, h4, h5, h6 {
 .button {
     display: inline-block;
     vertical-align: top;
-    
+
     border: 2px solid #1f09f1;
     padding: 2px 3px;
-    
+
     color: #1f09f1;
     font-size: 30px;
     font-weight: 700;
     text-decoration: none;
-    
+
     transition: background 0.2s linear, color 0.2s linear;
 }
 
@@ -225,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .slider {
     width: 100%;
-    
+
     position: absolute;
     bottom: 0;
     left: 0;
@@ -241,10 +243,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 24%;
     padding: 20px 0;
     position: relative;
-    
+
     border-top: 3px solid #ffc371;
     opacity: 0.65;
-    
+
     font-size: 15px;
     color: black;
 }
@@ -258,9 +260,9 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 70px;
     height: 3px;
-    
+
     background-color: #ff5f6d;
-    
+
     position: absolute;
     top: -3px;
     left: 0;
@@ -282,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto 40px;
-    
+
     text-align: center;
 }
 
@@ -303,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 60px;
     height: 3px;
     margin: 30px auto;
-    
+
     background-color: orange;
 }
 
@@ -312,7 +314,27 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 15px;
 }
 
+/* ScrollBar */
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: 0 0 2px rgba(0,0,0,.1) inset;
+    background: grey;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    background: linear-gradient(to bottom, #ff5f6d, #ffc371);
+    border-radius: 9px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+}
 
 
 
