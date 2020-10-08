@@ -291,9 +291,9 @@ h1, h2, h3, h4, h5, h6 {
 .section__title:after {
     content: "";
     display: block;
-    width: 120px;
+    width: 230px;
     height: 3px;
-    margin: 30px auto;
+    margin: 5px auto;
 
     background: linear-gradient(-45deg, #ff5f6d, #ffc371);
     background-size: 400% 400%;
@@ -324,12 +324,61 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 9px;
 }
 
+/* About */
 
+.about {
+    display: flex;
+    justify-content: space-around;
+}
 
+.about__item {
+    width: 256px;
+}
 
+.about__item:hover .about__img img {
+    opacity: 0.4;
+}
 
+.about__img {
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
 
+.about__img img {
+    display: block;
+    transition: opacity 0.1s linear;
+}
 
+/* Statistics */
 
+.statistics {
+    background-color: darkorange;
+}
 
+.stat {
+    display: flex;
+}
 
+.stat__item {
+    flex: 1 1 0;
+    padding: 50px 25px;
+
+    border-left: 1px solid orange;
+
+    text-align: center;
+    color: white;
+}
+
+.stat__item:last-child {
+    border-right: 1px solid orange;
+}
+
+.stat__count {
+    margin-bottom: 10px;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.stat__text {
+    font-size: 14px;
+    text-transform: uppercase;
+}
