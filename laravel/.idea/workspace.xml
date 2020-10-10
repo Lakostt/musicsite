@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a4de895-878e-4359-b1ac-ef5f41a90c03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/musicsite/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicsite/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/musicsite/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +147,22 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/musicsite/resources/css" />
+      <recent name="$PROJECT_DIR$/musicsite/resources/views" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="home.blade.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/laravel/musicsite/resources/views/home.blade.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.blade.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -160,7 +174,7 @@
       <workItem from="1602347259675" duration="531000" />
       <workItem from="1602347818916" duration="107000" />
       <workItem from="1602348001287" duration="94000" />
-      <workItem from="1602348302710" duration="22000" />
+      <workItem from="1602348302710" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1602347856793</created>
@@ -169,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602347856793</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="laravel">
+      <created>1602348361448</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602348361448</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,17 +198,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="laravel" />
+    <option name="LAST_COMMIT_MESSAGE" value="laravel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="271" y="34" key="CommitChangelistDialog2" timestamp="1602347856603">
+    <state x="271" y="34" key="CommitChangelistDialog2" timestamp="1602348361163">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="271" y="34" key="CommitChangelistDialog2/0.0.1440.900/1440.-180.2560.1080@0.0.1440.900" timestamp="1602347856603" />
+    <state x="271" y="34" key="CommitChangelistDialog2/0.0.1440.900/1440.-180.2560.1080@0.0.1440.900" timestamp="1602348361163" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1602348323822">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/1440.-180.2560.1080@0.0.1440.900" timestamp="1602348323822" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602348364712">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-180.2560.1080@0.0.1440.900" timestamp="1602348364712" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602347760379">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
