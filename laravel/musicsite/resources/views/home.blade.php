@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <link href="{{ asset('../css/style.css/') }}" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+
+    <link href="https://lakostt.github.io/musicsite/laravel/musicsite/resources/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>Главная страница</title>
@@ -72,17 +72,17 @@
         <div class="about">
             <div class="about__item">
                 <div class="about__img">
-                    <img src="../Images/spotify.png" alt="">
+                    <img src="https://lakostt.github.io/musicsite/laravel/musicsite/resources/Images/spotify.png" alt="">
                 </div>
             </div>
             <div class="about__item">
                 <div class="about__img">
-                    <img src="../Images/vk.png" alt="">
+                    <img src="https://lakostt.github.io/musicsite/laravel/musicsite/resources/Images/vk.png" alt="">
                 </div>
             </div>
             <div class="about__item">
                 <div class="about__img">
-                    <img src="../Images/yandex.png" alt="">
+                    <img src="https://lakostt.github.io/musicsite/laravel/musicsite/resources/Images/yandex.png" alt="">
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
     </div>
 </div> -->
 <footer>
-    hello
+
 </footer>
 
 </body>
