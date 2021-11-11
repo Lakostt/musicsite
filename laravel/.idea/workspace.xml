@@ -180,6 +180,12 @@
       <workItem from="1605280189423" duration="93000" />
       <workItem from="1605284436623" duration="993000" />
       <workItem from="1605285757960" duration="73000" />
+      <workItem from="1605285990432" duration="524000" />
+      <workItem from="1605605571948" duration="37000" />
+      <workItem from="1608136575054" duration="197000" />
+      <workItem from="1632770715814" duration="15000" />
+      <workItem from="1632770769393" duration="65000" />
+      <workItem from="1632770957838" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1602347856793</created>
@@ -205,23 +211,5 @@
     <MESSAGE value="1" />
     <MESSAGE value="laravel" />
     <option name="LAST_COMMIT_MESSAGE" value="laravel" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="271" y="34" key="CommitChangelistDialog2" timestamp="1602348361163">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="271" y="34" key="CommitChangelistDialog2/0.0.1440.900/1440.-180.2560.1080@0.0.1440.900" timestamp="1602348361163" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1602348323822">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/1440.-180.2560.1080@0.0.1440.900" timestamp="1602348323822" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1602348364712">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.-180.2560.1080@0.0.1440.900" timestamp="1602348364712" />
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602347760379">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.-180.2560.1080@0.0.1440.900" timestamp="1602347760379" />
   </component>
 </project>
